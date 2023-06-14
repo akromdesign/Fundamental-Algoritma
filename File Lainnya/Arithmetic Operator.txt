@@ -1,0 +1,82 @@
++ printf("%d", 2+3); 5
+- printf("%d", 3-2); 1
+* printf("%d", 3*3); 9
+/ printf("%d", 5/2); 2
+% (Modulus) printf("%d", 20%3); 2
+
+Binary
+- Binary code digunakan oleh komputer untuk menjalankan instruksi/program
+- terdiri dari 2 angka yaitu 0 atau 1
+
+contoh binary
+- Binary dari 6 adalah 110
+- Binary dari 21 adalah 10101
+
+Cara menghitung Binary sebuah bilangan
+8
+8 -> 0
+8 dibagi dengan 2 = 4
+4 -> 0
+4 dibagi dengan 2 = 2
+2 -> 0
+2 dibagi dengan 2 = 1
+1 -> 1
+1000
+
+Genap = 0
+Ganjil = 1
+
+Cara mencari tahu bilangan dari sebuah binary
+1001
+1 -> 1
+1 dikali dengan 2 = 2
+2 dikali dengan 2 = 4
+4 dikali dengan 2 ditambah dengan 1 = 9
+9
+
+8/2 = 4
+9/2 = 
+
+Bitwise Operator
+AND (&)
+Bilangan Pertama:6
+Bilangan Kedua:5
+6&5
+6:110
+5:101
+----- &
+  100:4
+
+OR (|)
+Bilangan Pertama:6
+Bilangan Kedua:5
+6|5
+6:110
+5:101
+-----&
+  111=7
+
+XOR(^)
+Bilangan Pertama:6
+Bilangan Kedua:5
+6^5
+6:110
+5:101
+-----&
+  011=3
+
+Shift Right (>>)
+Bilangan Pertama:6
+Bilangan Kedua:2
+6>>2
+6:110
+6>>2:001
+1
+
+Shift Left (<<)
+Bilangan Pertama:6
+Bilangan Kedua:2
+6<<2
+6:110
+6<<2:11000
+24
